@@ -1,0 +1,42 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $Slide : Adw.Bin {
+  halign: fill;
+  valign: fill;
+  hexpand: true;
+
+  Box {
+    orientation: vertical;
+    spacing: 24;
+    halign: center;
+    valign: center;
+    hexpand: true;
+
+    Adw.Clamp {
+      maximum-size: 600;
+      tightening-threshold: 500;
+
+      Picture assets_svg {
+        styles [
+          "icon-dropshadow",
+        ]
+      }
+    }
+
+    Label title {
+      margin-top: 24;
+      wrap: true;
+      justify: center;
+
+      styles [
+        "title-1",
+      ]
+    }
+
+    Label description {
+      wrap: true;
+      justify: center;
+    }
+  }
+}

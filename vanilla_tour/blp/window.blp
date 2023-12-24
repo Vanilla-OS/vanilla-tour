@@ -1,0 +1,64 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $VanillaTourWindow : Adw.ApplicationWindow {
+  default-width: 900;
+  default-height: 680;
+
+  Adw.Bin {
+    child:     Adw.ToolbarView {
+      [top]
+      Adw.HeaderBar {
+        title-widget: 
+        Adw.CarouselIndicatorDots carousel_indicator_dots {
+          carousel: carousel;
+          orientation: horizontal;
+        }
+
+        ;
+      }
+      content: 
+      Overlay {
+        valign: center;
+
+        [overlay]
+        Button btn_back {
+          visible: false;
+          margin-start: 12;
+          margin-end: 12;
+          icon-name: 'go-previous-symbolic';
+          halign: start;
+          valign: center;
+          tooltip-text: _('Back');
+
+          styles [
+            "circular",
+          ]
+        }
+
+        [overlay]
+        Button btn_next {
+          margin-start: 12;
+          margin-end: 12;
+          icon-name: 'go-next-symbolic';
+          halign: end;
+          valign: center;
+          tooltip-text: _('Next');
+
+          styles [
+            "circular",
+          ]
+        }
+
+        Adw.Carousel carousel {
+          vexpand: true;
+          hexpand: true;
+        }
+      }
+
+      ;
+    }
+
+    ;
+  }
+}
