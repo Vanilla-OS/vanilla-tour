@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/vanillaos/Tour">
+    <file preprocess="xml-stripblanks">blp/window.ui</file>
+    <file preprocess="xml-stripblanks">blp/slide.ui</file>
+    
+    <file preprocess="xml-stripblanks">assets/welcome.svg</file>
+    <file preprocess="xml-stripblanks">assets/complete.svg</file>
+    <file preprocess="xml-stripblanks">assets/containerized.svg</file>
+    <file preprocess="xml-stripblanks">assets/control-center.svg</file>
+
+    <file>assets/tour.json</file>
+    
+  </gresource>
+</gresources>

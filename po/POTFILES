@@ -1,0 +1,6 @@
+data/org.vanillaos.Tour.desktop.in
+data/org.vanillaos.Tour.metainfo.xml.in
+data/org.vanillaos.Tour.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

@@ -1,0 +1,22 @@
+[
+    {
+        "resource": "/org/vanillaos/Tour/assets/welcome.svg",
+        "title": "Welcome to Vanilla",
+        "description": "Designed to last over time and always be faithful to you." 
+    },
+    {
+        "resource": "/org/vanillaos/Tour/assets/control-center.svg",
+        "title": "You're in Control",
+        "description": "Configure the system to your liking in the Vanilla Control Center."
+    },
+    {
+        "resource": "/org/vanillaos/Tour/assets/containerized.svg",
+       "title": "Containerized",
+       "description": "You never have to worry about breakage due to incompatible or conflicting packages."
+    },
+    {
+        "resource": "/org/vanillaos/Tour/assets/complete.svg",
+       "title": "Complete and Reliable",
+       "description": "Use your system your way without anything getting in the way."
+    }
+]
