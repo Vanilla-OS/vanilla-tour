@@ -34,8 +34,6 @@ class VanillaTourApplication(Adw.Application):
         super().__init__(application_id='org.vanillaos.Tour',
                          flags=Gio.ApplicationFlags.DEFAULT_FLAGS)
         self.create_action('quit', lambda *_: self.quit(), ['<primary>q'])
-        self.create_action('about', self.on_about_action)
-        self.create_action('preferences', self.on_preferences_action)
 
     def do_activate(self):
         """Called when the application is activated.
@@ -47,21 +45,6 @@ class VanillaTourApplication(Adw.Application):
         if not win:
             win = VanillaTourWindow(application=self)
         win.present()
-
-    def on_about_action(self, widget, _):
-        """Callback for the app.about action."""
-        about = Adw.AboutWindow(transient_for=self.props.active_window,
-                                application_name='vanilla tour',
-                                application_icon='org.vanillaos.Tour',
-                                developer_name='Muqtadir',
-                                version='0.1.0',
-                                developers=['Muqtadir'],
-                                copyright='© 2023 Muqtadir')
-        about.present()
-
-    def on_preferences_action(self, widget, _):
-        """Callback for the app.preferences action."""
-        print('app.preferences action activated')
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.

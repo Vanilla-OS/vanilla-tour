@@ -1,0 +1,5 @@
+vanilla-tour (0.0.1) unstable; urgency=critical
+
+  * Basic debian packaging
+
+ -- Muqtadir <muqtxdir@gmail.com>  Mon, 25 Dec 2023 19:33:00 +0530

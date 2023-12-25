@@ -1,0 +1,25 @@
+Source: vanilla-tour
+Section: utils
+Priority: optional
+Maintainer: Muqtadir <muqtxdir@gmail.com>
+Build-Depends: build-essential,
+               debhelper,
+               python3,
+               meson,
+               libadwaita-1-dev,
+               gettext,
+               desktop-file-utils,
+               libjpeg-dev,
+               blueprint-compiler
+Homepage: https://github.com/Vanilla-OS/vanilla-tour/
+Vcs-Browser: https://github.com/Vanilla-OS/vanilla-tour
+Vcs-Git: https://github.com/Vanilla-OS/vanilla-tour.git
+Rules-Requires-Root: no
+
+Package: vanilla-tour
+Architecture: any
+Depends: python3,
+         python3-gi,
+         libadwaita-1-0,
+         gir1.2-gtk-4.0,
+Description: A quick slideview Tour of all new things in Vanilla OS.
