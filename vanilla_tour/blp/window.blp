@@ -1,24 +1,21 @@
 using Gtk 4.0;
 using Adw 1;
 
-template $VanillaTourWindow : Adw.ApplicationWindow {
+template $VanillaTourWindow: Adw.ApplicationWindow {
   default-width: 900;
   default-height: 680;
 
   Adw.Bin {
-    child:     Adw.ToolbarView {
+    child: Adw.ToolbarView {
       [top]
       Adw.HeaderBar {
-        title-widget: 
-        Adw.CarouselIndicatorDots carousel_indicator_dots {
+        title-widget: Adw.CarouselIndicatorDots carousel_indicator_dots {
           carousel: carousel;
           orientation: horizontal;
-        }
-
-        ;
+        };
       }
-      content: 
-      Overlay {
+
+      content: Overlay {
         valign: center;
 
         [overlay]
@@ -54,11 +51,7 @@ template $VanillaTourWindow : Adw.ApplicationWindow {
           vexpand: true;
           hexpand: true;
         }
-      }
-
-      ;
-    }
-
-    ;
+      };
+    };
   }
 }
