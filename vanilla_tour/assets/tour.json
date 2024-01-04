@@ -1,22 +1,72 @@
 [
     {
-        "resource": "/org/vanillaos/Tour/assets/welcome.svg",
-        "title": "Welcome to Vanilla",
-        "description": "Designed to last over time and always be faithful to you." 
+        "resource": "/org/vanillaos/Tour/assets/welcome.png",
+        "title": "Vanilla OS 2 Orchid",
+        "description": "Let's take a short tour."
     },
     {
-        "resource": "/org/vanillaos/Tour/assets/control-center.svg",
-        "title": "You're in Control",
-        "description": "Configure the system to your liking in the Vanilla Control Center."
+        "resource": "/org/vanillaos/Tour/assets/solid.svg",
+        "title": "Solid. Secure. Maintenance-free.",
+        "description": "Vanilla OS is developed with security in mind. Updates are automatic and run in the background, they won't get in your way.",
+        "hasAction": true,
+        "action": {
+            "title": "Configure Updates",
+            "callback": "cmd://vanilla-updates-utility"
+        }
     },
     {
-        "resource": "/org/vanillaos/Tour/assets/containerized.svg",
-       "title": "Containerized",
-       "description": "You never have to worry about breakage due to incompatible or conflicting packages."
+        "resource": "/org/vanillaos/Tour/assets/favorite-apps.svg",
+        "title": "Your Favorite Apps, Right Here",
+        "description": "From your favorite music player, to your trusted web browser. They are all available, install them from the store.",
+        "hasAction": true,
+        "action": {
+            "title": "Open the Store",
+            "callback": "cmd://gnome-software"
+        }
     },
     {
-        "resource": "/org/vanillaos/Tour/assets/complete.svg",
-       "title": "Complete and Reliable",
-       "description": "Use your system your way without anything getting in the way."
+        "resource": "/org/vanillaos/Tour/assets/android-compatibility.svg",
+        "title": "Android Compatibility",
+        "description": "Is that app you love so much only on Android? We've got you covered, Vanilla OS supports APKs."
+    },
+    {
+        "resource": "/org/vanillaos/Tour/assets/develop.svg",
+        "title": "Develop, The Way You Like",
+        "description": "Vanilla OS comes with APX, a tool that allows you to create integrated and extensible development environments, ready for your every need."
+    },
+    {
+        "resource": "/org/vanillaos/Tour/assets/overview.svg",
+        "title": "Have an Overview",
+        "description": "Is that app you love so much only on Android? We've got you covered, Vanilla OS supports APKs."
+    },
+    {
+        "resource": "/org/vanillaos/Tour/assets/configure.svg",
+        "title": "Configure Your Device",
+        "description": "From Bluetooth devices to that wallpaper you love so much. The settings panel allows you to configure it as you like.",
+        "hasAction": true,
+        "action": {
+            "title": "Open the Settings",
+            "callback": "cmd://gnome-control-center"
+        }
+    },
+    {
+        "resource": "/org/vanillaos/Tour/assets/connect.svg",
+        "title": "Connect Your Online Accounts",
+        "description": "Do you have a Gmail, Outlook, Nextcloud or other account? Connect them to your Vanilla OS device to integrate email, calendars.. everything.",
+        "hasAction": true,
+        "action": {
+            "title": "Connect an Account",
+            "callback": "cmd://gnome-control-center online-accounts"
+        }
+    },
+    {
+        "resource": "/org/vanillaos/Tour/assets/end.svg",
+        "title": "There is More",
+        "description": "Find out more about all the Orchid news and features on our blog.",
+        "hasAction": true,
+        "action": {
+            "title": "Visit the Blog",
+            "callback": "url://https://vanillaos.org/blog"
+        }
     }
 ]

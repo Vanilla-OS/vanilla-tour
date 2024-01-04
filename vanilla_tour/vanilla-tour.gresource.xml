@@ -3,13 +3,15 @@
   <gresource prefix="/org/vanillaos/Tour">
     <file preprocess="xml-stripblanks">blp/window.ui</file>
     <file preprocess="xml-stripblanks">blp/slide.ui</file>
-    
-    <file preprocess="xml-stripblanks">assets/welcome.svg</file>
-    <file preprocess="xml-stripblanks">assets/complete.svg</file>
-    <file preprocess="xml-stripblanks">assets/containerized.svg</file>
-    <file preprocess="xml-stripblanks">assets/control-center.svg</file>
-
+    <file preprocess="xml-stripblanks">assets/android-compatibility.svg</file>
+    <file preprocess="xml-stripblanks">assets/configure.svg</file>
+    <file preprocess="xml-stripblanks">assets/connect.svg</file>
+    <file preprocess="xml-stripblanks">assets/develop.svg</file>
+    <file preprocess="xml-stripblanks">assets/end.svg</file>
+    <file preprocess="xml-stripblanks">assets/favorite-apps.svg</file>
+    <file preprocess="xml-stripblanks">assets/overview.svg</file>
+    <file preprocess="xml-stripblanks">assets/solid.svg</file>
+    <file preprocess="xml-stripblanks">assets/welcome.png</file>
     <file>assets/tour.json</file>
-    
   </gresource>
 </gresources>

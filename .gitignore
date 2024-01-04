@@ -1,0 +1,12 @@
+/obj-x86_64-linux-gnu
+/mesonbuild
+**.pyc
+**__pycache__
+/debian/.debhelper
+/debian/files
+/debian/vanilla-tour
+/debian/vanilla-tour.substvars
+/debian/vanilla-tour.debhelper.log
+install/
+.buildconfig
+.vscode/
