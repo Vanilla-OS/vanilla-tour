@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=tour
+Name=Vanilla OS Tour
 Exec=vanilla-tour
 Icon=org.vanillaos.Tour
 Terminal=false
