@@ -11,9 +11,10 @@ template $Slide: Adw.Bin {
     spacing: 24;
     halign: center;
     valign: center;
-    hexpand: true;
+    
 
     Adw.Clamp {
+      hexpand: true;
       maximum-size: 600;
       tightening-threshold: 500;
 
@@ -24,19 +25,22 @@ template $Slide: Adw.Bin {
       }
     }
 
-    Label title {
-      margin-top: 24;
-      wrap: true;
-      justify: center;
+    Adw.StatusPage status_page {
+      Box {
+        halign: center;
+        valign: center;
 
-      styles [
-        "title-1",
-      ]
+        Button btn_action {
+          visible: false;
+
+          styles [
+            "suggested-action",
+            "pill",
+          ]
+        }
+      }
     }
 
-    Label description {
-      wrap: true;
-      justify: center;
-    }
   }
+
 }

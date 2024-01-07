@@ -11,7 +11,7 @@
     <file preprocess="xml-stripblanks">assets/favorite-apps.svg</file>
     <file preprocess="xml-stripblanks">assets/overview.svg</file>
     <file preprocess="xml-stripblanks">assets/solid.svg</file>
-    <file preprocess="xml-stripblanks">assets/welcome.png</file>
+    <file>assets/welcome.png</file>
     <file>assets/tour.json</file>
   </gresource>
 </gresources>
