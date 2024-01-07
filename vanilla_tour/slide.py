@@ -45,8 +45,8 @@ class Slide(Adw.Bin):
             self.btn_action.set_label(self.__slide["action"]["title"])
 
     def __on_btn_action_clicked(self, widget):
-        if "url://" in self.__slide["action"]["callback"]:
+        if self.__slide["action"]["callback"].startswith("url://"):
                 webbrowser.open(self.__slide["action"]["callback"].split("url://")[1])
 
-        elif "cmd://" in self.__slide["action"]["callback"]:
+        elif self.__slide["action"]["callback"].startswith("cmd://"):
             GLib.spawn_command_line_async(self.__slide["action"]["callback"].split("cmd://")[1])   
