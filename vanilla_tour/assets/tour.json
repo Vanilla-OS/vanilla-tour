@@ -8,7 +8,6 @@
         "resource": "/org/vanillaos/Tour/assets/solid.svg",
         "title": "Solid. Secure. Maintenance-free.",
         "description": "Vanilla OS is developed with security in mind. Updates are automatic and run in the background, they won't get in your way.",
-        "hasAction": true,
         "action": {
             "title": "Configure Updates",
             "callback": "cmd://vanilla-updates-utility"
@@ -18,7 +17,6 @@
         "resource": "/org/vanillaos/Tour/assets/favorite-apps.svg",
         "title": "Your Favorite Apps, Right Here",
         "description": "From your favorite music player, to your trusted web browser. They are all available, install them from the store.",
-        "hasAction": true,
         "action": {
             "title": "Open the Store",
             "callback": "cmd://gnome-software"
@@ -43,7 +41,6 @@
         "resource": "/org/vanillaos/Tour/assets/configure.svg",
         "title": "Configure Your Device",
         "description": "From Bluetooth devices to that wallpaper you love so much. The settings panel allows you to configure it as you like.",
-        "hasAction": true,
         "action": {
             "title": "Open the Settings",
             "callback": "cmd://gnome-control-center"
@@ -53,7 +50,6 @@
         "resource": "/org/vanillaos/Tour/assets/connect.svg",
         "title": "Connect Your Online Accounts",
         "description": "Do you have a Gmail, Outlook, Nextcloud or other account? Connect them to your Vanilla OS device to integrate email, calendars.. everything.",
-        "hasAction": true,
         "action": {
             "title": "Connect an Account",
             "callback": "cmd://gnome-control-center online-accounts"
@@ -63,7 +59,6 @@
         "resource": "/org/vanillaos/Tour/assets/end.svg",
         "title": "There is More",
         "description": "Find out more about all the Orchid news and features on our blog.",
-        "hasAction": true,
         "action": {
             "title": "Visit the Blog",
             "callback": "url://https://vanillaos.org/blog"
