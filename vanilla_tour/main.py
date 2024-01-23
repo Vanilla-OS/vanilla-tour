@@ -1,6 +1,6 @@
 # main.py
 #
-# Copyright 2023 Muqtadir
+# Copyright 2024 Muqtadir
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
