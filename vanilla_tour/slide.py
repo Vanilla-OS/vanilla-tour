@@ -1,6 +1,6 @@
 # slide.py
 #
-# Copyright 2023 Muqtadir
+# Copyright 2024 Muqtadir
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -49,4 +49,5 @@ class Slide(Adw.Bin):
                 webbrowser.open(self.__slide["action"]["callback"].split("url://")[1])
 
         elif self.__slide["action"]["callback"].startswith("cmd://"):
-            GLib.spawn_command_line_async(self.__slide["action"]["callback"].split("cmd://")[1])   
+            GLib.spawn_command_line_async(self.__slide["action"]["callback"].split("cmd://")[1])
+ 

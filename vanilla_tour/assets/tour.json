@@ -34,8 +34,8 @@
     },
     {
         "resource": "/org/vanillaos/Tour/assets/overview.svg",
-        "title": "Have an Overview",
-        "description": "Is that app you love so much only on Android? We've got you covered, Vanilla OS supports APKs."
+        "title": "Get an Overview",
+        "description": "Press the Super key to see open windows and apps."
     },
     {
         "resource": "/org/vanillaos/Tour/assets/configure.svg",
