@@ -19,6 +19,10 @@
 
 from gi.repository import Adw, Gtk, GLib
 import webbrowser
+import gettext
+from gettext import gettext as _
+
+gettext.textdomain("vanilla-tour")
 
 @Gtk.Template(resource_path="/org/vanillaos/Tour/blp/slide.ui")
 class Slide(Adw.Bin):
@@ -37,12 +41,12 @@ class Slide(Adw.Bin):
 
     def __build_ui(self):
         self.assets_svg.set_resource(self.__slide["resource"])
-        self.status_page.set_title(self.__slide["title"])
-        self.status_page.set_description(self.__slide["description"])
+        self.status_page.set_title(_(self.__slide["title"]))
+        self.status_page.set_description(_(self.__slide["description"]))
 
         if "action" in self.__slide:
             self.btn_action.set_visible(True)
-            self.btn_action.set_label(self.__slide["action"]["title"])
+            self.btn_action.set_label(_(self.__slide["action"]["title"]))
 
     def __on_btn_action_clicked(self, widget):
         if self.__slide["action"]["callback"].startswith("url://"):
