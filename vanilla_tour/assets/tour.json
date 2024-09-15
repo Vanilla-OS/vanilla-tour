@@ -1,6 +1,6 @@
 [
     {
-        "resource": "/org/vanillaos/Tour/assets/welcome.png",
+        "resource": "/org/vanillaos/Tour/assets/welcome.svg",
         "title": "Vanilla OS 2 Orchid",
         "description": "Let's take a short tour."
     },
