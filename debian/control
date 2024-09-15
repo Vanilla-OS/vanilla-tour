@@ -22,4 +22,5 @@ Depends: python3,
          python3-gi,
          libadwaita-1-0,
          gir1.2-gtk-4.0,
+         librsvg2-common,
 Description: A quick slideview Tour of all new things in Vanilla OS.
