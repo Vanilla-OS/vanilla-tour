@@ -31,9 +31,9 @@ localedir = '@localedir@'
 
 sys.path.insert(1, pkgdatadir)
 signal.signal(signal.SIGINT, signal.SIG_DFL)
-locale.bindtextdomain('tour', localedir)
-locale.textdomain('tour')
-gettext.install('tour', localedir)
+locale.bindtextdomain('vanilla-tour', localedir)
+locale.textdomain('vanilla-tour')
+gettext.install('vanilla-tour', localedir)
 
 if __name__ == '__main__':
     import gi
