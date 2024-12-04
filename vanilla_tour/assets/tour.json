@@ -23,11 +23,6 @@
         }
     },
     {
-        "resource": "/org/vanillaos/Tour/assets/android-compatibility.svg",
-        "title": "Android Compatibility",
-        "description": "Is that app you love so much only on Android? We've got you covered, Vanilla OS supports APKs."
-    },
-    {
         "resource": "/org/vanillaos/Tour/assets/develop.svg",
         "title": "Develop, The Way You Like",
         "description": "Vanilla OS comes with APX, a tool that allows you to create integrated and extensible development environments, ready for your every need."
