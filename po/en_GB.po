@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the vanilla-installer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vanilla-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 16:48+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Vanilla OS 2 Orchid"
+msgstr ""
+
+msgid "Solid. Secure. Maintenance-free."
+msgstr ""
+
+msgid "Your Favorite Apps, Right Here"
+msgstr ""
+
+msgid "Android Compatibility"
+msgstr ""
+
+msgid "Develop, The Way You Like"
+msgstr ""
+
+msgid "Get an Overview"
+msgstr ""
+
+msgid "Configure Your Device"
+msgstr ""
+
+msgid "Connect Your Online Accounts"
+msgstr ""
+
+msgid "There is More"
+msgstr ""
+
+msgid "Let's take a short tour."
+msgstr ""
+
+msgid "Vanilla OS is developed with security in mind. Updates are automatic and run in the background, they won't get in your way."
+msgstr ""
+
+msgid "From your favorite music player, to your trusted web browser. They are all available, install them from the store."
+msgstr ""
+
+msgid "Is that app you love so much only on Android? We've got you covered, Vanilla OS supports APKs."
+msgstr ""
+
+msgid "Vanilla OS comes with APX, a tool that allows you to create integrated and extensible development environments, ready for your every need."
+msgstr ""
+
+msgid "Press the Super key to see open windows and apps."
+msgstr ""
+
+msgid "From Bluetooth devices to that wallpaper you love so much. The settings panel allows you to configure it as you like."
+msgstr ""
+
+msgid "Do you have a Gmail, Outlook, Nextcloud or other account? Connect them to your Vanilla OS device to integrate email, calendars.. everything."
+msgstr ""
+
+msgid "Find out more about all the Orchid news and features on our blog."
+msgstr ""
+
+msgid "Configure Updates"
+msgstr ""
+
+msgid "Open the Store"
+msgstr ""
+
+msgid "Open the Settings"
+msgstr ""
+
+msgid "Connect an Account"
+msgstr ""
+
+msgid "Visit the Blog"
+msgstr ""
