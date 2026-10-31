@@ -1,1 +1,1 @@
-i18n.gettext('tour', preset: 'glib')
+i18n.gettext('vanilla-tour', preset: 'glib')
